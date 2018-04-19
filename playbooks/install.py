@@ -5,7 +5,7 @@ from distutils.spawn import find_executable
 tmp_bench_repo = '/tmp/.bench'
 
 def install_bench(args):
-	check_distribution_compatibility()
+	# check_distribution_compatibility()
 	check_brew_installed()
 	# pre-requisites for bench repo cloning
 	install_package('curl')
